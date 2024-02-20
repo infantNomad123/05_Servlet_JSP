@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet 복습 프로젝트</title>
+</head>
+<body>
+   <h1>황진관의 Servlet 복습 프로젝트</h1> 
+
+   <!-- 피자 주몬 요청 -> 영수증 -->
+   <h1>서버 요청 + 제출 테스트 2</h1>
+
+   <form action="/ex2" method = "get">
+
+       <h3>피자 주문하기</h3>
+
+       피자 선택 : 
+       <select name="Pizza">
+           <option value = "페페로니">페페로니(10000)</option>
+           <option value = "감자">감자(11000)</option>
+           <option value = "불고기">불고기(12000)</option>
+           <option value = "골드쉬림프">골드쉬림프(12000)</option>
+       </select>
+
+       <br>
+
+       뼈/순살 : 
+       뼈 <input type="radio" name="type" value = "bone"> 
+       /
+       순살 (+2000) <input type="radio" name="type" value = "boneless">
+
+       <br>
+
+       기타 옵션 : <br>
+
+       <input type="checkbox" name="opt" value = "치킨">
+       치킨 무 추가 (+500)
+       <br>
+
+       <input type="checkbox" name="opt" value = "콜라">
+       콜라 추가 (+2000)
+       <br>
+
+       <input type="checkbox" name="opt" value = "치즈볼">
+       치즈볼 추가 (+3000)
+       <br>
+
+       주문자명 : <input type="text" name="ordererName"><br>
+       주소 : <input type="text" name="ordererAddress" size = "50">
+       <br>
+       <button>주문하기</button>
+   </form>
+
+</body>
+</html>

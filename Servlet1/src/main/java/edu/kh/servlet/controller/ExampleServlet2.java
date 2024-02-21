@@ -123,7 +123,7 @@ public class ExampleServlet2 extends HttpServlet {
 		sb.append(String.format("<h3>금액 : %d원</h3>", price));
 		
 		sb.append("</body>");
-		sb.append("<html>");
+		sb.append("</html>");
 		
 		out.print(sb.toString());
 	}

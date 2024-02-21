@@ -85,7 +85,6 @@ public class ExampleServlet1 extends HttpServlet{
 		sb.append(String.format("<h1> %s님의 나이는 %s입니다 </h1>", inputName, inputAge));
 		sb.append("</body>");
 		
-		
 		sb.append("<html>");
 		
 		//sb에 누적된html 코드를 스트림을 이용해서 출력

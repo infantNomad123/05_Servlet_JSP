@@ -26,7 +26,7 @@ public class PizzaOrderServlet extends HttpServlet {
 		
 		String myName = "황진관";
 		
-		//Attribute(속성) == 객체의 속성 == 번수(필드)
+		//Attribute(속성) == 객체의 속성 == 변수(필드)
 		req.setAttribute("myName", myName);
 		//req -> private String myName = "이름"
 		
